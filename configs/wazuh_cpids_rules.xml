@@ -1,0 +1,12 @@
+<group name="cp_ids,cyber_physical,">
+  <rule id="100501" level="10">
+    <decoded_as>json</decoded_as>
+    <field name="tier">1</field>
+    <description>CP-IDS Tier 1: Confirmed Cyber-Physical Convergence (Automated Containment Triggered)</description>
+  </rule>
+  <rule id="100502" level="7">
+    <decoded_as>json</decoded_as>
+    <field name="tier">2</field>
+    <description>CP-IDS Tier 2: High-Confidence Single-Domain Anomaly (Operator Review)</description>
+  </rule>
+</group>
